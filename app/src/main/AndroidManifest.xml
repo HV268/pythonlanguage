@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/python_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Python_language_app"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".polymorphism"
+            android:exported="false"
+            android:parentActivityName=".oop1" />
+        <activity
+            android:name=".instal"
+            android:exported="false"
+            android:parentActivityName=".dash" />
+        <activity
+            android:name=".history"
+            android:exported="false"
+            android:parentActivityName=".dash" />
+        <activity
+            android:name=".abstraction"
+            android:exported="false"
+            android:parentActivityName=".oop1" />
+        <activity
+            android:name=".inheritance"
+            android:exported="false"
+            android:parentActivityName=".oop1" />
+        <activity
+            android:name=".constructors"
+            android:exported="false"
+            android:parentActivityName=".oop1" />
+        <activity
+            android:name=".class_object"
+            android:exported="false"
+            android:parentActivityName=".oop1" />
+        <activity
+            android:name=".oop_intro"
+            android:exported="false"
+            android:parentActivityName=".oop1" />
+        <activity
+            android:name=".arrays"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".files"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".functions"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".dictionary"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".sets"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".tuples"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".list"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".strings"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".jumping_statements"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".loops"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".conditional_statements"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".comments"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".operators"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".keywords"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".data_types"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".variables"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".inroduction"
+            android:exported="false"
+            android:parentActivityName=".basic1" />
+        <activity
+            android:name=".interview_1"
+            android:exported="false"
+            android:parentActivityName=".dash" />
+        <activity
+            android:name=".benefits1"
+            android:exported="false"
+            android:parentActivityName=".dash" />
+        <activity
+            android:name=".program1"
+            android:exported="false"
+            android:parentActivityName=".dash" />
+        <activity
+            android:name=".related1"
+            android:exported="false"
+            android:parentActivityName=".dash" />
+        <activity
+            android:name=".oop1"
+            android:exported="false"
+            android:parentActivityName=".dash" />
+        <activity
+            android:name=".basic1"
+            android:exported="false"
+            android:parentActivityName=".dash" />
+        <activity
+            android:name=".dash"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

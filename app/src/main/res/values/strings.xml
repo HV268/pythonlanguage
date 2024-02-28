@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">python_villa</string>
+    <string name="introduction"><u>Introduction</u></string>
+    <string name="what_python_content">Python is a high-level, interpreted programming language known for its simplicity and readability, making it an excellent choice for beginners and experienced developers alike.</string>
+    <string name="uses_of_python">Python is commonly used for : \n \n * Web Development \n * Data Analysis \n * Artificial Intelligence \n * Scientific Computing \n * Automation</string>
+    <string name="features_of_python">* <b> Easy to Read and Write : </b> Python\'s syntax is clear and easy to read.This readability makes Python an excellent choice for beginners and reduces the maintenance cost of software projects.\n\n
+        * <b>Interpreted Language:</b> Python code is executed line by line, which makes debugging easier compared to compiled languages. This feature allows for a more interactive coding experience, especially when using Python shells or notebooks.\n\n
+        *<b>High-level :</b>High-level language means human readable code.\n\n
+        * <b>Dynamic Typing:</b> Python does not require you to declare the type of a variable explicitly when you create one.\n\n
+        *<b>Open Source:</b> Python is developed under an OSI-approved open source license, making it freely usable and distributable, even for commercial use.</string>
+    <string name="why_learn_python">*<b>Ease of Learning : </b> Python\'s syntax is clear and intuitive, making it an excellent starting point for beginners learning to program.\n\n
+    *<b>Versatility : </b>Python is used in many areas of software development, including web development, data science, artificial intelligence, machine learning, automation, and more.\n\n
+        *<b>Open Source:</b> Python is developed under an OSI-approved open source license, making it freely usable and distributable, even for commercial use.\n\n
+        *<b>Extensible : </b> Python can be extended with modules written in C, C++, or other languages.\n\n
+        *<b> Vast Libraries and Frameworks : </b>Python\'s extensive libraries and frameworks simplify tasks in web development, data analysis, natural language processing, and machine learning, among others. \n\n</string>
+    <string name="history"><u>History</u></string>
+    <string name="history_version">
+        * Python was created in the late 1980s.\n\n
+        * The implementation of Python was started in December 1989 by Guido Van Rossum.\n\n
+        * The goal was to design a language that emphasized code readability and allowed programmers to express concepts in fewer lines of code compared to languages like C.
+    </string>
+    <string name="versions">
+        * <b>Python 0.9.0 : </b>The first version was released to alt.sources in February 1991.\n\n
+        * <b>Python 1.0 : </b> Released in January 1994. Notable features included in this and subsequent 1.x releases were the introduction of lambda, map, filter, and reduce.\n\n
+        * <b>Python 2.0 : </b> Released in October 2000, introduced list comprehensions, garbage collection capable of collecting cycles, and Unicode support.\n\n
+        * <b>Python 2.2 : </b> Introduced the concept of iterators and the new-style classes that unified types and classes.\n\n
+        * <b>Python 2.5-2.7 : </b> These versions introduce the concept of conditional expressions, the with statement, and the merging of Python\'s types and classes into a single hierarchy. \n Python 2.7, released in July 2010, was declared the last of the 2.x series which receive support until 2020\n\n
+        * <b>Python 3.0 : </b> Released in December 2008, it was designed to rectify fundamental flaw of the language.\n\n
+        * <b>Python 3.6 : </b> Introduced formatted string literals and variable type annotations among other features.\n\n
+        * <b>Python 3.7 : </b> Added data classes and more.\n\n
+        * <b>Python 3.8 : </b> Introduced the walrus operator and more sophisticated assignment expressions.\n\n
+        * <b>Python 3.9 : </b> Continued to add features like pattern matching, improved parser, and more robust standard library features.\n\n
+        * <b>Python 3.11 : </b> Released in 24 October 2022.
+    </string>
+    <string name="variables"><u>Variables </u></string>
+    <string name="what_variable">
+        The name given to a memory locations are Variables or we can say that variables are simply containers for storing data values.
+    </string>
+    <string name="syntax_variables"> x= 10 \n name = \"Harshu\" </string>
+    <string name="var_syntax_explain"> In this \'x\'  is an integer variable with a value of \'10\' and \'name\'is a string variable with a value of \'Harshu\'</string>
+    <string name="identifiers"> Identifiers are the names used to identify a variable, function, class, module, or other objects. </string>
+    <string name="rules_identi"> *<b>Characters: </b>Identifiers can include letters (both uppercase and lowercase), digits, and underscores (\'_\'). They cannot contain spaces, punctuation, or special symbols (like \'#\', \'@\', \'!\', etc.), and they cannot start with a digit.\n\n
+
+        *<b>Case Sensitivity: </b>Identifiers are case-sensitive. This means that \'variable\', \'Variable\', and \'VARIABLE\' are three distinct identifiers in Python.\n\n
+
+  *<b>Starting Character: </b>An identifier must begin with either a letter (\'a-z\', \'A-Z\') or an underscore (\'_\'). However, it\'s a convention in Python that an identifier starting with an underscore is intended for internal use. For example, _internal or __private.\n\n
+
+        *<b>Reserved Words: </b>Python reserves a set of keywords that have special syntactical significance and cannot be used as identifiers. Examples include \'if\', \'for\', \'while\', \'class\', \'return\' etc.\n\n
+
+        *<b>Unlimited Length: </b>There\'s no limit to the length of an identifier. However, it\'s practical to keep them reasonably short for readability.</string>
+    <string name="del_var">We can delete the variables by \'del\' Keyword.\n The Syntax for deleting Variables is :</string>
+    <string name="del_variable_name"><![CDATA[del<variable_name>]]></string>
+    <string name="constants">
+        Python does not have built-in constant types, but by convention, variables that are meant to be constants are usually written in all uppercase letters:
+    </string>
+    <string name="data_types"><u>Data Types</u></string>
+    <string name="what_data_types">Data types are the classification or categorization of data items.</string>
+    <string name="what_data_types2">In this example we will not give the type of Variable \'x\'.The Python interpreter will automatically interpret the variable as an integer.\n\n
+        <b>Following are the Python-defined list of Data types : </b>\n\n
+        * Numbers \n\n
+        * Sequence Type \n\n
+        * Boolean \n\n
+        * Set Type \n\n
+        * Dictionary \n\n
+
+
+
+    </string>
+    <string name="note_the_type_function_in_python_returns_the_type_of_the_passed_variable">Note : The type() function in Python returns the type of the passed variable.</string>
+    <string name="numbers">In this numeric values can store.Integers, floating point numbers, and complex numbers are categorized under Python numbers. \n\n
+    * <b>Integers(\'int\') : </b>These are positive or negative whole numbers without a decimal point. Example: \'10\',\'15\'.\n\n
+        *<b>Floating point numbers(\'float\') : </b>These represent real numbers which are written with a decimal point. Example: \'2.52\',\'-5.25\'.\n\n
+        *<b>Complex numbers(\'complex\') : </b> These represent both real and imaginary numbers. Example : \'(5+2i)\'.
+    </string>
+    <string name="number_example"> x = 10\n
+    y=3.14\n
+    z=4+2j\n\n
+    print(type(x))  #int\n
+    print(type(y))  #float\n
+    print(type(z))  #complex</string>
+    <string name="sequence_type">* <b>String : </b> String is defined as a sequence of characters with double quotes (\" \").Example: \"Hello\" \n\n
+        *<b>List : </b>List is a  mutable(elements can be change) ordered collection of items which can be of different types.Example: \'[\"Hello\" , 1 , 2.54 ]\' \n\n
+        *<b>Tuple : </b>Tuple are similar to list but immutable(elements cannot be change) and start with small brackets \'()\'.Example: \'(\"Hello\" , 1 , 2.54 )\'
+    </string>
+    <string name="detail">Note: We will discuss \'String\' ,\'Tuple\',\'List\' and \'Dictionary\' in more detail in further topics.</string>
+    <string name="bool"> It represents if the value is \'True\' or \'false\' .</string>
+    <string name="set">Sets are an unordered collection of unique items. Sets are mutable and thus, new elements can be added once sets are defined. Example: \'{1, 2, 3, 4}\'.</string>
+    <string name="dictionary"> In Python only dictionary is a mapping type. It is an unordered collection of items. Each item of a dictionary has a key/value pair. Example: {\"name\": \"Harshu\", \"age\": 22}.</string>
+    <string name="keywords"><u>Keywords</u></string>
+    <string name="what_keywords">Keywords in Python are reserved words that cannot be used as identifiers for variables, functions, classes, or any other user-defined entities\n\n
+       <b> Some Python Keywords are:</b>
+    </string>
+    <string name="list_of_keywords">
+        *<b>False : </b>- Represents the boolean value False.\n\n
+*<b>none : </b> Represents the absence of a value or a null value.\n\n
+*<b>True : </b> Represents the boolean value True.\n\n
+*<b>and : </b> Logical AND operator.\n\n
+*<b>as : </b> Used to create an alias while importing a module.\n\n
+        *<b>break : </b> Breaks out of the current closest enclosing loop.\n\n
+*<b>class : </b> Used to define a new user-defined class.\n\n
+*<b>continue : </b> Continues to the next iteration of the current loop.\n\n
+*<b>def : </b> Used to define a function.\n\n
+*<b>del : </b> Used to delete an object.\n\n
+*<b>elif : </b> Used in conditional statements, same as else if.\n\n
+*<b>else : </b> Used in conditional statements.\n\n
+        *<b>for : </b> Used to create a for loop.\n\n
+*<b>from : </b> Used to import specific parts of a module.\n\n
+*<b>if : </b> Used to make a conditional statement.\n\n
+*<b>import : </b> Used to import a module.\n\n
+        *<b>Lambda : </b> Used to create an anonymous function.\n\n
+        *<b>not : </b> Logical NOT operator.\n\n
+        *<b>or : </b> Logical OR operator.\n\n
+         *<b>pass : </b> A null statement, a placeholder for future code.\n\n
+         *<b>return : </b> Used to exit a function and return a value.\n\n
+         *<b>try : </b> Used to make a try except statement.\n
+    </string>
+    <string name="what_keywords2">These are some essential keywords in Python.</string>
+    <string name="operators"><u>Operators</u></string>
+    <string name="what_operators">
+        Operators are the special symbols which are used to perform some operations on operands. \n\n
+        <b>Below are the some operators of Python :</b>\n\n
+        * Arithmetic operators\n\n
+ *Comparison operators\n\n
+ *Assignment Operators\n\n
+ *Logical Operators\n\n
+*Bitwise Operators\n\n
+*Membership Operators\n\n
+*Identity Operators
+    </string>
+    <string name="arithmetic">
+        The Arithmetic Operators are used to perform mathematical operations between two operands.\n\n
+
+        <b>Some Arithmetic Operators are :</b></string>
+    <string name="some_op">
+        <b>\'+\' : </b> Add two operands.Example: \'a+b\'.\n\n
+        <b>\'-\' : </b> Subtract two operands.Example: \'a-b\'.\n\n
+        <b>\'*\' : </b> Multiply two operands.Example: \'a*b\'.\n\n
+        <b>\'/\' : </b> Divide two operands.Example: \'a/b\'.\n\n
+        <b>\'%\' : </b> It returns the reminder after dividing the first operands to the second.Example: \'a%b\'.\n\n
+    </string>
+    <string name="comparision">This Operator is used to compare the values and returns boolean value i.e \'True\' or \'False\'.\n\n
+        <b>Some Comparison Operators are :</b></string>
+    <string name="comparision_type">
+        <b>Greater than(\'&gt;\') : </b>True if left operand is greater than the right.\n\n
+        <b>Less than(\'&lt;\') : </b>True if left operand is less than the right.\n\n
+        <b>Equal to(\'==\') : </b>True if both operands are equal.\n\n
+        <b>Not Equal to(\'!=\') : </b>True if operands are not equal.\n\n
+        <b> Greater than or equal to(\'&gt;=\') : </b>True if left is greater than or equal to the right.\n\n
+        <b>Less than or equal to(\'&lt;=\') : </b> Less than or equal to: True if left is less than or equal to the right.
+
+    </string>
+    <string name="assignment">Assignment Operator is used to assign the value to the variable.\n\n
+        <b>Some Assignment Operators are :</b></string>
+    <string name="assignment_type">
+         <b>\'=\' : </b>Assigns value from right side operands to left side operand.\n\n
+        <b>\'+=\' : </b>It adds right operand to the left operand and assign the result to left operand.\n\n
+        <b>\'-=\' : </b>It subtracts right operand from the left operand and assign the result to left operand.\n\n
+        <b>\'*=\' : </b>It multiplies right operand with the left operand and assign the result to left operand.
+    </string>
+    <string name="assignment2">
+        There are more Assignment Operators like \'%=\', \'**=\', \'//=\' and more.
+
+    </string>
+    <string name="logical">
+        The Logical Operator is used to build logic for the statement.It is used to combine conditional statements.\n\n
+        <b>Some Logical Operators are :</b>
+    </string>
+    <string name="logical_type">
+        <b>\'and\' : </b>It returns True if both statements are true.\n\n
+        <b>\'or\' : </b>It returns True if one statements are true.\n\n
+        <b>\'not\' : </b>It reverse the result, returns False if the result is true.
+    </string>
+    <string name="bitwise">
+        In Bitwise Operator the values are processed bit by bit and the values are performed on bits.\n\n
+         <b>Some Bitwise Operators are :</b>
+    </string>
+    <string name="bitwise_type">
+         <b>binary and(\'&amp;\') : </b>True if both operands are equal.\n\n
+         <b>binary or(\'|\') : </b>True if both operands are equal.\n\n
+         <b>binary xor(\'^\') : </b>True if both operands are equal.\n\n
+         <b>negation(\'~\') : </b>True if both operands are equal.\n\n
+         <b>binary to(\'==\') : </b>True if both operands are equal.\n\n
+         <b>binary to(\'==\') : </b>True if both operands are equal.\n\n
+    </string>
+
+
+</resources>
